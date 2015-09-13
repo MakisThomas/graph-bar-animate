@@ -1,0 +1,41 @@
+body {
+  width: 50%;
+  margin: auto; }
+
+.graph {
+  display: block;
+  position: relative; }
+  .graph h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #646464;
+    line-height: 0.75; }
+  .graph ul {
+    display: block;
+    width: 100%;
+    padding: 0; }
+    .graph ul li {
+      display: block;
+      list-style: none;
+      text-align: left;
+      margin: 0 auto 90px; }
+    .graph ul span {
+      font-size: 15px;
+      color: #646464;
+      line-height: 1.5; }
+    .graph ul .fullBar {
+      height: 50px;
+      width: 100%;
+      float: left;
+      position: absolute;
+      background-color: #ececec; }
+    .graph ul .bar {
+      height: 50px;
+      position: absolute;
+      clear: both;
+      float: left;
+      background-color: #28b082; }
+    .graph ul .label {
+      float: right; }
+
+/*# sourceMappingURL=style.css.map */
